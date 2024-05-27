@@ -45,7 +45,7 @@ export const driverReqDB = collection(db, "driverRequest");
 
 //GOOGLE MAP API
 export const loader = new Loader({
-    apiKey: "AIzaSyDk-9aGVswjq_hTsEewyHQXa6zo1JOTUZQ",
+    apiKey: "AIzaSyBUFp0SfWx97MPwp99jfBjE5x4H9j6MqAM",
     version: "weekly",
 });
 
