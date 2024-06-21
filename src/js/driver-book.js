@@ -119,7 +119,7 @@ main.loader.load().then(async () => {
     settlebtn.addEventListener("click", (e) => {
         e.preventDefault();
         const settleRef = main.doc(main.db, "bookings", currentBooking.id);
-        if (confirm("Have the driver paid for the ride?")) {
+        if (confirm("Have the passenger paid for the ride?")) {
             if (confirm("Double confirm?")) {
                 main.updateDoc(settleRef, {
                     status: "completed",
